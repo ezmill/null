@@ -62,7 +62,7 @@ function initLights(){
     var ambient = new THREE.AmbientLight( 0xffffff );
     scene.add( ambient );
 
-    pointLight = new THREE.PointLight( 0xffffff, 2 );
+    pointLight = new THREE.PointLight( 0xffffff, 0.1 );
     scene.add( pointLight );
 
 }
